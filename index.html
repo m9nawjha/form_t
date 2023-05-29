@@ -11,44 +11,48 @@
     
 </style>
 <body>
-    <h2>basic html form</h2>
-    <form action="" style="width: 50%;">
-        <fieldset>
-        <legend>name</legend>
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname">
-         </fieldset>
-        <!---->
-         
-        <!---->
-        <fieldset>
-            <legend>other quseen</legend>
-        <!--s1-->
-        <h3>choose a dirnk</h3>
-        <label for="coffe"><input type="radio" name="coffe" id="coffe"> coffe</label><br>
-        <label for="tea"><input type="radio" name="tea" id="tea"> tea</label><br>
-        <label for="hot chocolate"><input type="radio" name="hot chocolate" id="hot chocolate"> hot chocolate</label><br>
-        
-        <!--s2-->
-        <h2>what is cream do you like</h2>
-        <label for=""><input type="checkbox"> choclate</label><br>
-        <label for=""><input type="checkbox"> choclate pudding</label><br>
-        <label for=""><input type="checkbox">choclate pudding butter</label><br>
-        <label for=""><input type="checkbox">vanilla</label><br>
-        <label for=""><input type="checkbox">strawbrry</label><br>
-        <h2>select a school</h2>
-        <select name="" id="" style="width: 20%;">
-            <option value="">option</option>
-            <option value="">option</option>
-            <option value="">option</option>
-        </select>
-        <h2>please provide comment</h2>
-        <textarea name="" id="" cols="30" rows="3"></textarea>
-        </fieldset>
-        <br>
-        <button type="submit">submit</button>
-    </form>
+    <div style="display: flex ; justify-content: center;">
+        <form action="" style="width: 50%; border: 1px solid; padding: 10px;">
+            <h2>basic html form</h2>
+            <!--name-->
+            <fieldset>
+            <legend>name</legend>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+             </fieldset>
+             
+            <!--other quseen-->
+            <fieldset>
+                <legend>other quseen</legend>
+            <!--choose a dirnk-->
+            <h3>choose a dirnk</h3>
+            <label for="coffe"><input type="radio" name="coffe" id="coffe"> coffe</label><br>
+            <label for="tea"><input type="radio" name="tea" id="tea"> tea</label><br>
+            <label for="hot chocolate"><input type="radio" name="hot chocolate" id="hot chocolate"> hot chocolate</label><br>
+            
+            <!--what is cream do you like-->
+            <h2>what is cream do you like</h2>
+            <label for="choclate"><input type="checkbox" id="choclate"> choclate</label><br>
+            <label for="choclate"><input type="checkbox" id="choclate"> choclate pudding</label><br>
+            <label for="choclate"><input type="checkbox" id="choclate">choclate pudding butter</label><br>
+            <label for="vanilla"><input type="checkbox" id="vanilla">vanilla</label><br>
+            <label for="strawbrry"><input type="checkbox" id="strawbrry">strawbrry</label><br>
+            <!--select a school-->
+            <h2>select a school</h2>
+            <select name="" id="" style="width: 20%;">
+                <option value="">option</option>
+                <option value="">option</option>
+                <option value="">option</option>
+            </select>
+            <!--please provide comment-->
+            <h2>please provide comment</h2>
+            <textarea name="" id="" cols="30" rows="3"></textarea>
+            </fieldset>
+            <br>
+            <button type="submit">submit</button>
+        </form>
+    </div>
 </body>
 </html>
